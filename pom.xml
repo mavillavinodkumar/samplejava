@@ -24,7 +24,11 @@
   </repositories>
   <distributionManagement>
   <repository>
-       <id>maven-release</id>                                                                                                  <name>maven-release</name>                                                                                              <url>http://3.108.52.211:8081/repository/maven-releases/</url>                                                     </repository>                                                                                                           </distributionManagement>
+       <id>maven-release</id>                                                                                                 
+       <name>maven-release</name>                                                                                              
+       <url>http://3.108.52.211:8081/repository/maven-releases/</url>                                                     
+  </repository>                                                                                                           
+  </distributionManagement>
   <build>
     <finalName>SampleWebApp</finalName>
   </build>
