@@ -20,14 +20,10 @@
    <build>
 =======
   <distributionManagement>
-  <repository>
-       <id>maven-release</id>                                                                                                                                                                                               
-       <url>http://3.108.52.211:8081/#browse/browse:maven-releases</url>                                                     
-  </repository>
-  <snapshotRepository>
-       <id>maven-release</id>                                                                                            
-       <url>http://3.108.52.211:8081/#browse/browse:maven-releases</url>                                                     
-  </snapshotRepository> 
+    <repository>
+       <id>maven-release</id>                                                                                                  <url> http://3.108.52.211:8081/#admin/repository/repositories:maven-releases</url>                                   </repository>
+    <snapshotRepository>
+       <id>maven-release</id>                                                                                                  <url>http://3.108.52.211:8081/#admin/repository/repositories:maven-releases</url>                                    </snapshotRepository> 
   </distributionManagement>
   <build>
 >>>>>>> nani
