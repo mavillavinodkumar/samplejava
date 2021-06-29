@@ -15,6 +15,11 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+  <dependencies>
+    <dependency>
+
+    </dependency>
+  </dependencies>
    <build>
     <finalName>SampleWebApp</finalName>
   </build>
