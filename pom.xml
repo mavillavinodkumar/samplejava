@@ -15,19 +15,15 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
-  <repositories>
-  <repository>
-       <id>maven-release</id>
-       <name>maven-release</name>
-       <url>http://3.108.52.211:8081/repository/maven-releases/</url>
-  </repository>
-  </repositories>
   <distributionManagement>
   <repository>
-       <id>maven-release</id>                                                                                                 
-       <name>maven-release</name>                                                                                              
+       <id>maven-release</id>                                                                                                                                                                                               
        <url>http://3.108.52.211:8081/repository/maven-releases/</url>                                                     
-  </repository>                                                                                                           
+  </repository>
+  <snapshotRepository>
+       <id>maven-release</id>                                                                                            
+       <url>http://3.108.52.211:8081/repository/maven-releases/</url>                                                     
+  </snapshotRepository> 
   </distributionManagement>
   <build>
     <finalName>SampleWebApp</finalName>
