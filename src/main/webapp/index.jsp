@@ -11,7 +11,7 @@ body {
 </style>
 </head>
 <body>
-<h1>My Website1</h1>
+<h1>My Website</h1>
 <p>A website created by me.</p>
 </body>
 </html>
